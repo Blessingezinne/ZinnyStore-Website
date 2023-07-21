@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZinnyStore | Ecommerce Website Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+       <a href="index.html"><img src="images/logo-2.png" width="125px"></a> 
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+      <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+    <div class="row">
+      <div class="col-2">
+        <h1>Give Your Kids <br> A New Style!</Style></h1>
+        <p>Success isn't always about greatness. How you dress your kids reflects who you are.</p>
+        <a href="" class="btn">Explore Now &#8594;</a>
+      </div>
+      <div class="col-2">
+        <img src="images/background3.png">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!------ featured categories-->
+
+<div class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="images/category4.jpg">
+      </div>
+      <div class="col-3">
+        <img src="images/category2.jpg">
+      </div>
+      <div class="col-3">
+        <img src="images/category3.jpg">
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+
+<!------ featured products-->
+
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="product-details.html"><img src="images/Nike1.png"></a>
+        <a href="product-details.html"><h4>Nike Jacket</h4></a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>EUR 72.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Tommy Hilfiger.png">
+        <h4>Tommy Hilfiger Canvas</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>EUR 32.99</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Calvin Klein pyamas.png">
+        <h4>Calvin Klein Pyamas</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>EUR 27.59</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Bikkembergs.png">
+        <h4>Bikkembergs Sandals</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>EUR 20.60</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/Calvin Klein Jeans1.png">
+        <h4>Calcin Klein</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>EUR 48.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Vingino casual.png">
+        <h4>Vingino Casual</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>EUR 30.99</p>
+      </div>
+      <div class="col-4">
+        <img src="images/category1.jpg">
+        <h4>Nike Pyamas</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>EUR 81.59</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Polo1.png">
+        <h4>Polo Canvas</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>EUR 53.60</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/Boss Belt.png">
+          <h4>Boss Belt Wear</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>EUR 11.73</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Lassig bag.png">
+          <h4>Lassig Bag</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>EUR 104.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Gant.png">
+          <h4>Gant Cap</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>EUR 14.59</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Lacoste.png">
+          <h4>Lacoste Wrist Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>EUR 20.60</p>
+        </div>
+      </div>
+    </div>
+</div>
+<!------ offer ------>
+
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-2">
+          <img src="images/Exclusive.png" class="offer-img">
+      </div>
+      <div class="col-2">
+          <p>Exclusively Available on ZinnyStore</p>
+          <h1>IsiAgu Chieftaincy Wear</h1>
+          <small>This African (Igbo) wear is exclusively available only here on Zinny's Store Order for it now, we have only limited quantity, is available in many colours  and styles.
+          </small><br>
+          <a href="" class="btn"> Buy Now &#8594; </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------- testimonial ----->
+<div class="testimonial">
+  <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Excellent customer service, fast delivery. I got in a situation where I had a short notice to leave abroad, and Isabella and the Team made it happen to receive my item, Thank you!</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="images/Customer-testimonial1.png">
+          <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Fits great, great condition and the process was very     easy! Very much recommended.
+            Can't wait for the wedding now my little man is going to look adorable</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <img src="images/Customer-testimonial2.png">
+          <h3>Simon Kelsey</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Arrived promptly, and beautifully packaged in a presentation box and scented envelope. The item is perfect condition and is for my little one on the way, can’t wait to see him in it next summer (bought larger size)!</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/Customer-testimonial3.png">
+          <h3>Nicholas C.</h3>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!----- brands ------>
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <img src="images/logo-godrej.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-oppo.png">
+      </div>
+      <div class="col-5">
+        <img src="images/cocacola.png">
+      </div>
+      <div class="col-5">
+        <img src="images/paypal.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-philips.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-------- footer ------>
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App For Android and ios mobile phone.</p>
+          <div class="add-logo">
+            <img src="images/google-play.png">
+            <img src="images/app-store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/logo2.png">
+          <p>Our Purpose Is To Sustainably Make Our Products Pleasant and Affordable for Everyone.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blohg Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2023 - ZinnyStore</p>
+    </div>
+</div>
+
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+  
+</body>
+</html>
